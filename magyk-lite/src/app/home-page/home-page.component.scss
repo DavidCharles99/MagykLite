@@ -1,0 +1,22 @@
+* {
+  align-content: center;
+
+}
+.textcard {
+  display: block;
+  text-align: left;
+  margin: 30px;
+  background-color: #DBD2C5;
+}
+
+.example-card {
+  max-width: 700px;
+  margin: 30px;
+  background-color: #DBD2C5;
+
+}
+
+.example-header-image {
+  background-image: url('https://image.shutterstock.com/image-photo/studio-headshot-young-happy-european-260nw-1079314142.jpg');
+  background-size: cover;
+}
