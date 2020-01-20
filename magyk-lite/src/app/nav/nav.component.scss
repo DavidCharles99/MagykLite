@@ -1,14 +1,19 @@
 * {
   color: #3F9155;
-  background: #74D18D;
+  background: white;
 }
 
   a {
   float: left;
   display: block;
-  color: white;
+  color: #3F9155;
   text-align: center;
   padding: 12px 16px;
   text-decoration: none;
   font-size: 1em;
  }
+
+ .logo {
+    float: left;
+    margin-right: 10px;
+  }
