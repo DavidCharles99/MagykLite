@@ -9,6 +9,9 @@ import { NavComponent } from './nav/nav.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { MatCardModule } from '@angular/material/card';
 import { TimesheetComponent } from './timesheet/timesheet.component';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatTableModule} from '@angular/material/table';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 
 @NgModule({
@@ -23,7 +26,10 @@ import { TimesheetComponent } from './timesheet/timesheet.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatCardModule
+    MatCardModule,
+    MatPaginatorModule,
+    MatTableModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
